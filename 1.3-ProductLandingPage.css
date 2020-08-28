@@ -1,0 +1,222 @@
+#background{
+background-color:#F2F2F2;
+display:flex;
+height:100%;
+}
+
+
+#title {
+margin-top:80px;
+text-align:center;
+font-family: 'Source Sans Pro', sans-serif;
+color:#262626;
+font-style:italic;
+font-size: 40px;
+}
+
+
+#description{
+margin-left:20%;
+margin-right:20%;
+text-align:center;
+font-family: 'Source Sans Pro', sans-serif;
+color:#262626;
+font-weight:bold;
+font-size: 25px;
+}
+
+
+body{
+width:100%;
+}
+
+
+#header {
+height:10%;
+width:100%;
+}
+
+
+#header-img{
+height:60px;
+}
+
+
+#nav-bar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background-color:#262626;
+height:60px;
+display:flex;
+flex-wrap:wrap;
+}
+
+
+#nav-right{
+position:fixed;
+top:0;
+right:0;
+display:flex;
+flex-wrap: reverse;
+margin-top:auto;
+margin-bottom:auto;
+background-color:#8BBBD9;
+height:60px;
+}
+
+
+a { 
+display:block;
+color:#CEDEF2;
+text-decoration: none;
+padding-left:1vw;
+padding-right:1vw;
+margin-bottom:auto;
+margin-top:auto;
+font-family: 'Lato', sans-serif;
+}
+
+
+a:hover{
+color:#262626
+}
+
+
+#videobox{
+width:100%;
+}
+
+
+#video{
+display:block;
+margin: 0 auto;
+box-shadow: 5px 7px #262626;
+}
+
+
+#form{
+width:100%;
+}
+
+
+#email-label{
+display:block;
+text-align: center;
+font-family: 'Lato', sans-serif;
+color:#262626;
+font-weight:bold;
+font-size: 20px;
+}
+
+
+#email{
+width:30vw;
+height:2vw;
+border-radius:5px;
+}
+
+
+#email , #submit {
+display:block;
+margin: 0 auto;
+font-family: 'Lato', sans-serif;
+}
+
+
+#submit{
+background-color:#8BBBD9;
+border:none;
+border-radius:5px;
+width:7vw;
+height:3vw;
+}
+
+
+#container{
+width:100%;
+display:flex;
+flex-wrap:wrap;
+}
+
+
+#div1, #div2 {
+display:block;
+width: 30vw;
+height: 30vw;
+margin-left:auto;
+margin-right:auto;
+background-color:#8BBBD9;
+padding:10px;
+border-radius:50%;
+color:#262626;
+}
+
+
+@media screen and (max-width: 600px) {
+#div1, #div2 {
+width:100%;
+}
+
+}
+
+
+#divimg1{
+background: url("https://images.pexels.com/photos/4197564/pexels-photo-4197564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") 50% 50% no-repeat;
+width: 17vw;
+height: 17vw;
+margin:0 auto;
+border-style:solid;
+border-color:#F2F2F2;
+border-width:thick;
+box-shadow: 5px 7px #262626;
+}
+
+
+#divimg2{
+background: url("https://cdn.stocksnap.io/img-thumbs/960w/blue-floral_NYXDEB5E4K.jpg") 50% 50% no-repeat;
+width: 17vw;
+height: 17vw;
+margin:0 auto;
+border-style:solid;
+border-color:#F2F2F2;
+border-width:thick;
+box-shadow: 5px 7px #262626;
+}
+
+
+p {
+text-align: justify;
+font-family: 'Lato', sans-serif;
+}
+
+
+footer{
+width:100%
+display:flex;
+justify-content:center;
+}
+
+
+#footer{
+width:40%;
+height:3vw;
+background-color:#262626;
+display:flex;
+justify-content:center;
+transform: skewX(-10deg);
+margin-left:auto;
+margin-right:auto;
+}
+
+
+#contact {
+color:#8BBBD9 !important ;
+font-family: 'Lato', sans-serif;
+}
+
+
+#contact:hover{
+color:#F2F2F2	!important;
+}
